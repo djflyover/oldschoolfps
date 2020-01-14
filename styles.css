@@ -1,0 +1,556 @@
+body {
+    font-family: Segoe UI, Verdana, sans-serif;
+    /*padding: 0% 20% 0% 20%;*/
+    margin: 0% 20% 0% 20%;
+    box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    background-color: rgb(0, 0, 0);
+    /*background-attachment: fixed;*/
+    /*background-size: 1920px 1080px;*/
+}
+
+.index-bg {
+    background-image: url(images/index-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+.doom-bg {
+    background-image: url(images/doom-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.quake-bg {
+    background-image: url(images/quake-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.unreal-bg {
+    background-image: url(images/unreal-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.half-life-bg {
+    background-image: url(images/half-life-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.counter-strike-bg {
+    background-image: url(images/counter-strike-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fps-bg {
+    background-image: url(images/fps-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(rgba(5, 5, 5, 0.800), rgba(57, 57, 57, 0.800));
+    text-align: center;
+    color: rgb(46, 63, 73);
+    background-attachment: fixed;
+    /*display: inline-block;*/
+    /*background: transparent;*/
+    /*opacity: 0.7;*/
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-bottom: none;*/
+}
+
+.text-shadow {
+    text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(54, 54, 54);
+}
+
+.header-logo:link {
+    text-decoration: none;
+    color: rgb(46, 63, 73);
+}
+
+.header-logo:visited {
+    text-decoration: none;
+    color: rgb(46, 63, 73);
+}
+
+.header-logo:hover {
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 1px rgb(0, 183, 255));
+    transition: 0.5s;
+}
+
+.header-logo:active {
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px;
+    background: linear-gradient(rgba(5, 5, 5, 0.800), rgba(57, 57, 57, 0.800));
+    text-align: center;
+    background-attachment: fixed;
+}
+
+.nav-logo {
+    padding: 10px 50px 10px 50px;
+}
+
+.nav-logo:hover img {
+    filter: drop-shadow(0px 0px 5px rgb(255, 0, 0));
+    transition: 0.5s;
+    /*border: 1px solid #f26522;*/
+}
+
+.opacity {
+    opacity: 0.4;
+}
+
+.aside-left {
+    padding: 10px 0px 10px 0px;
+    width: 76px;
+    height: 673px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(27, 27, 27, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-doom {
+    padding: 10px;
+    width: 76px;
+    height: 2015px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-quake {
+    padding: 10px;
+    width: 76px;
+    height: 2176px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-unreal {
+    padding: 10px;
+    width: 76px;
+    height: 2052px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-hl {
+    padding: 10px;
+    width: 76px;
+    height: 2961px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-cs {
+    padding: 10px;
+    width: 76px;
+    height: 2609px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-fps {
+    padding: 10px;
+    width: 76px;
+    height: 1002px;
+    float: left;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(27, 27, 27, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.aside-left-logo {
+    padding: 7px 0px 7px 0px;
+    display: inline-block;                 /* Строчно-блочный элемент */
+    position: relative;                    /* Относительное позиционирование */
+   }
+
+
+.aside-left-logo:hover::after {
+    content: attr(data-title);             /* Выводим текст */
+    position: absolute;                    /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: -5px;       /* Положение подсказки */
+    z-index: 1;                            /* Отображаем подсказку поверх других элементов */
+    /*background: rgba(111, 122, 155, 0.6);/* Полупрозрачный цвет фона */
+    color: rgb(206, 206, 206);           /* Цвет текста */
+    text-align: center;                    /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif;        /* Гарнитура шрифта */
+    font-size: 11px;                       /* Размер текста подсказки */
+    padding: -5px 10px;                    /* Поля */
+    /*border: 1px solid #333;              /* Параметры рамки */
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.aside-right {
+    padding: 10px 0px 10px 0px;
+    width: 76px;
+    height: 673px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(27, 27, 27, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-doom {
+    padding: 10px;
+    width: 240px;
+    height: 2015px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-quake {
+    padding: 10px;
+    width: 240px;
+    height: 2176px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-unreal {
+    padding: 10px;
+    width: 240px;
+    height: 2052px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-hl {
+    padding: 10px;
+    width: 240px;
+    height: 2961px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-cs {
+    padding: 10px;
+    width: 240px;
+    height: 2609px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(107, 107, 107, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+.aside-right-fps {
+    padding: 10px;
+    width: 240px;
+    height: 1002px;
+    float: right;
+    background: linear-gradient(rgba(07, 07, 07, 0.800), rgba(27, 27, 27, 0.200));
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(46, 63, 73);
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+}
+
+table {
+    padding: 5px;
+    color: rgb(240, 240, 240);
+    font-size: 14px;
+}
+
+td {
+    padding-bottom: 5px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.date {
+    font-size: 12px;
+    color: rgb(230, 230, 230);
+}
+
+article {
+    background: rgb(42, 42, 40); 
+    margin-right: 240px; 
+    margin-left: 76px;
+    overflow: auto;                        /* Решает проблему выравнивания вложенных блоков */
+    color: rgb(240, 240, 240);
+    border-bottom: solid 2px rgb(46, 63, 73);
+    border-left: solid 2px rgb(46, 63, 73);
+    border-right: solid 2px rgb(46, 63, 73);
+}
+
+.article-index {
+    background: rgba(42, 42, 40, 0.200); 
+    margin-right: 76px;
+    margin-left: 76px;
+    overflow: auto;
+    color: rgb(240, 240, 240);
+    border-bottom: solid 2px rgb(46, 63, 73);
+}
+
+#content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#content-hud {
+    width: 99.5%;
+    margin: 0px auto;                      /* Решает проблему выравнивания блочного тега по центру */
+    padding-top: 1px;
+    margin-left: -1px;
+    text-align: center;
+}
+
+#content-crosshair {
+    width: 99%;
+    margin: 0px auto;
+    padding-top: 1px;
+    padding-left: 10px;
+    margin-left: -1px;
+    text-align: center;
+}
+
+h3 {
+    text-indent: 1.3em;
+    margin-bottom: -10px;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center;
+    text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(54, 54, 54);
+    padding-top: 20px;
+}
+
+p {
+    text-indent: 1.5em;
+    margin-bottom: -15px;
+    text-align: justify;
+}
+
+.figure-left {
+    background:rgb(78, 78, 73);
+    padding: 2px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 20px 10px 10px 0;
+    text-align: center;
+}
+
+.figure-right {
+    background: rgb(78, 78, 73);
+    padding: 2px;
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 20px 0 10px 10px;
+    text-align: center;
+}
+
+.figure-left-vert {
+    background:rgb(78, 78, 73);
+    padding: 2px;
+    width: 196px;
+    height: 322px;
+    float: left;
+    margin: 20px 10px 10px 0;
+    text-align: center;
+}
+
+.figure-right-vert {
+    background: rgb(78, 78, 73);
+    padding: 2px;
+    width: 196px;
+    height: 322px;
+    float: right;
+    margin: 20px 0px 10px 10px;
+    text-align: center;
+}
+
+figcaption {
+    color: rgb(255, 235, 235);
+    font-size: 14px;
+}
+
+footer {
+    padding: 10px;
+    /*background: rgba(128, 128, 128, 0.1);*/
+    background: rgba(20, 20, 20, 0.9);
+    text-align: center;
+}
+
+.footer-index {
+    padding: 10px;
+    background: rgba(8, 8, 8, 0.95);
+    text-align: center;
+}
+
+.footer-text {
+    margin-bottom: -100px;
+    color: rgb(192, 191, 191);
+    text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(54, 54, 54);
+}
+
+.footer-logo:hover img {
+    filter: drop-shadow(0px 0px 5px rgb(0, 133, 185));
+    transition: 0.5s;
+}
+
+.footer-bottom-text {
+    color: rgb(150, 150, 150);
+    text-shadow: 0 0 3px rgb(44, 44, 44), 0 0 5px rgb(54, 54, 54);
+    font-size: 12px;
+    /*line-height: 5px;*/
+}
+
+.footer-bottom-logo:link {
+    text-decoration: none;
+    color: rgb(46, 63, 73);
+}
+
+.footer-bottom-logo:visited {
+    text-decoration: none;
+    color: rgb(46, 63, 73);
+}
+
+.footer-bottom-logo:hover {
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 1px rgb(0, 183, 255));
+    transition: 0.5s;
+}
+
+.footer-bottom-logo:active {
+    text-decoration: none;
+}
+
+.link:link {
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+}
+
+.link:visited {
+    text-decoration: none;
+    color: rgb(180, 140, 120);
+}
+
+.link:hover {
+    text-decoration: none;
+    filter: drop-shadow(0px 0px 1px rgb(0, 183, 255));
+    transition: 0.5s;
+}
+
+.link:active {
+    text-decoration: none;
+}
